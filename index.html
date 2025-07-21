@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio with HTML, CSS and Javascript</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+       <nav class="navbar">
+        <div class="nav-container">
+            <a href ="#" class="nav-logo"></a>
+            <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">About</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            
+            </ul>
+        </div>
+         </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hey I am Gabriel Silva</h1>
+            <p class="hero-description">a web developer</p>
+            <a href="#work" class="hero-button"></a>
+        </div>
+
+    </section>
+
+
+    <section class="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="slideshow-container">
+            <div class="slide active">
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">TaskMaster Pro</h2>
+                        <p class="project-description">A project to organize tasks with interative Dashboard showing all the datas</p>
+                        <a href="https://github.com/GabrielSilvaxD/TaskMasterPro/tree/main" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">BookSearchEngine</h2>
+                        <p class="project-description">A MERN stack application that allows users to search for books using the Google Books API and save their favorite books to their account</p>
+                        <a href="https://github.com/GabrielSilvaxD/BookSearchEngine" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">QuizTest</h2>
+                        <p class="project-description">A full-stack MERN (MongoDB, Express.js, React, Node.js) application that allows users to take a tech quiz and test their knowledge. The application includes both component and end-to-end testing using Cypress.</p>
+                        <a href="your-github-link-here" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">Diana AI - CHATGPT</h2>
+                        <p class="project-description">A similar CHATGPT model using GEMINI AI as a project on my bootcamp, it was nice to integrate the gemini API on it</p>
+                        <a href="https://github.com/GabrielSilvaxD/DianaAI" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="project-item">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">Portfolio with REACT</h2>
+                        <p class="project-description">A project to show my portfolio using REACT and javascript</p>
+                        <a href="https://github.com/GabrielSilvaxD/MyPortfolioReact" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="nav-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        
+        <div class="slide-indicators">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    </div>
+
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Lets work together...</h2>
+            <p>How do you take your coffee</p>
+
+        </div>
+        <div class="contact-links">
+            <a href="https://github.com/GabrielSilvaxD" class="contact-link github" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/gabriel-silva-4b0b1a1b2/" class="contact-link linkedin" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/gabrielsilvaxd/" class="contact-link instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://x.com/X_GabrielS" class="contact-link twitter" target="_blank">
+                <i class="fab fa-twitter"></i>
+                <span>X (Twitter)</span>
+            </a>
+          </div>
+
+
+    </section>
+
+    <footer>
+     <p> Created by Gabriel Silva </p>
+
+
+
+    </footer>
+    <script>
+
+        //Javascript code will be here.
+
+    </script>
+    </body>
+</html>
